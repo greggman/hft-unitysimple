@@ -1,0 +1,14 @@
+{
+  "name": "UnitySimple",
+  "description": "The simplest unity example",
+  "version": "0.0.2",
+  "private": false,
+  "dependencies": {},
+  "happyFunTimes": {
+    "gameId": "unitysimpleexample",
+    "category": "example",
+    "gameType": "Unity3D",
+    "apiVersion": "1.1.0",
+    "minPlayers": 1
+  }
+}
