@@ -67,6 +67,7 @@ class ExampleSimplePlayer : MonoBehaviour {
     }
 
     void Start() {
+        m_renderer = gameObject.GetComponent<Renderer>();
         m_position = gameObject.transform.localPosition;
         m_color = new Color(0.0f, 1.0f, 0.0f);
     }
@@ -89,7 +90,7 @@ class ExampleSimplePlayer : MonoBehaviour {
 
     private void OnColor(MessageColor data) {
         m_color = CSSParse.Style.ParseCSSColor(data.color);
-        gameObject.renderer.material.color = m_color;
+        m_renderer.material.color = m_color;
     }
 
     private void OnMove(MessageMove data) {
@@ -114,6 +115,7 @@ class ExampleSimplePlayer : MonoBehaviour {
 
     private System.Random m_rand = new System.Random();
     private NetPlayer m_netPlayer;
+    private Renderer m_renderer;
     private Vector3 m_position;
     private Color m_color;
     private string m_name;
