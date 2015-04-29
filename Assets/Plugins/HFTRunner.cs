@@ -156,7 +156,7 @@ end tell
 
         void Install()
         {
-            Application.OpenURL("http://superhappyfuntimes.net/install");
+            Application.OpenURL("http://docs.happyfuntimes.net/docs/unity/install.html");
             Application.Quit();
         }
 
