@@ -3,7 +3,7 @@ HFT-Unity Simple Example
 
 This is a sample Unity3D game for the [HappyFunTimes party games system](http://greggman.github.io/HappyFunTimes).
 
-<img src="screenshot.png" />
+<img src="Assets/WebPlayerTemplates/HappyFunTimes/screenshot.png" />
 
 It simply shows spawning a sphere each time a player joins and controlling the position of the sphere
 but dragging your finger on the screen.
