@@ -48,9 +48,11 @@ requirejs([
 
   var globals = {
     debug: false,
+    //orientation: "landscape-primary",
   };
   Misc.applyUrlSettings(globals);
   MobileHacks.fixHeightHack();
+  MobileHacks.disableContextMenu();
 
   var score = 0;
   var statusElem = document.getElementById("gamestatus");
