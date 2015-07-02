@@ -2,7 +2,7 @@
   "dependencies": {},
   "description": "The simplest unity example",
   "happyFunTimes": {
-    "apiVersion": "1.12.0",
+    "apiVersion": "1.13.0",
     "category": "example",
     "gameId": "unitysimpleexample",
     "gameType": "Unity3D",
