@@ -1,19 +1,9 @@
 HFT-Unity Simple Example
 ========================
 
-This is a sample Unity3D game for the [HappyFunTimes party games system](http://greggman.github.io/HappyFunTimes).
+** This repo is depecated. It has been merged with http://github.com/greggman/hft-unity3d **
 
-<img src="Assets/WebPlayerTemplates/HappyFunTimes/screenshot.png" />
-
-It simply shows spawning a sphere each time a player joins and controlling the position of the sphere
-but dragging your finger on the screen.
-
-If you just want to play go to http://superhappyfuntimes.net/game/unitysimpleexample
-
-Cloning
--------
-
-[If you want to clone this follow the instructions here](https://github.com/greggman/HappyFunTimes/blob/master/docs/unitydocs.md)
-
+In that repo see the scenes in `Assets/HappyFunTimes/Samples/Sc enes` and
+ `Assets/HappyFunTimes/MoreSamples`
 
 
